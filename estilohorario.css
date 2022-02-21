@@ -1,0 +1,53 @@
+table,td {
+    table-layout: fixed;
+   width: 100%;
+   border-collapse: collapse;
+   border: 3px solid rgb(59, 107, 197);
+}
+.h3{
+    font-size: 50px;
+}
+
+table tr:nth-child(odd) {
+background:bold;}
+
+
+th, td {
+    padding: 20px;
+    text-align:center;
+}
+
+.title{
+    color: crimson;
+    font-size: 25px;
+}
+.category{
+    font-weight: bold;
+}
+
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  thead th, tfoot th {
+    font-family: 'Rock Salt';
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  
